@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--splash screen related dimensions-->
+    <dimen name="splashScreen_logoHeight">400dp</dimen>
+    <dimen name="splashScreen_logoWidth">480dp</dimen>
+    <dimen name="menuScreen_copyrightMsg_marginTop">1dp</dimen>
+    <dimen name="logo_marginBottom">50dp</dimen>
+
+    <!--Main screen related related dimensions-->
+    <dimen name="btn_textSize">12sp</dimen>
+    <dimen name="menuScreen_button_elevation">16dp</dimen>
+    <dimen name="ms_btn_width">140dp</dimen>
+    <dimen name="ms_btnSearch_width">200dp</dimen>
+    <dimen name="ms_btn_marginHorizontal">5dp</dimen>
+    <dimen name="ms_btn_height">10dp</dimen>
+    <dimen name="createAppointment_editT_width">335dp</dimen>
+    <dimen name="heading_TextSize">20sp</dimen>
+
+
+</resources>

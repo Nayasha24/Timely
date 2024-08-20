@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#655091</color>
+    <color name="colorPrimaryDark">#2B1657</color>
+    <color name="colorAccent">#0FA3B1</color>
+    <color name="white">#ffffff</color>
+
+
+    <!--gradient related colours-->
+    <color name="gradient_end">#F6B3C4</color>
+    <color name="gradient_center">#F3B3C4</color>
+    <color name="gradient_start">#DD78AB</color>
+
+
+    <!--popup_gradient related colours-->
+    <color name="popup_gradient_end">#d67471</color>
+    <color name="popup_gradient_center">#d0cc5b</color>
+    <color name="popup_gradient_start">#d67471</color>
+
+
+    <color name="Text">#ffffff</color>
+
+    <!--calendar related colors-->
+    <color name="CalenderViewDateCustomText">#ffffff</color>
+    <color name="CalenderViewWeekCustomText">#ffffff</color>
+
+
+</resources>

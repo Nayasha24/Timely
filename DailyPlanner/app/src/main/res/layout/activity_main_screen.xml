@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main_screen"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <CalendarView
+            android:id="@+id/ms_calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/CalenderViewCustom"
+            android:dateTextAppearance="@style/CalenderViewDateCustomText"
+            android:weekDayTextAppearance="@style/CalenderViewWeekCustomText">
+        </CalendarView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/btn_container1"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ms_create"
+                android:id="@+id/btn_createAppointment"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ms_view"
+                android:id="@+id/btn_viewEditAppointment"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/btn_container2"
+            android:gravity="center"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ms_delete"
+                android:id="@+id/btn_deleteAppointment"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ms_move"
+                android:id="@+id/btn_moveAppointment"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

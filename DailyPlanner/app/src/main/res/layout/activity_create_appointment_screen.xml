@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".CreateAppointmentScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Text"
+            android:textStyle="bold"
+            android:textSize="@dimen/heading_TextSize"
+            android:gravity="center"
+            android:text="@string/createAppointment_heading"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title of the appointment"
+                android:textColor="@color/Text"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/titleEditText"
+                android:layout_width="@dimen/createAppointment_editT_width"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/Text"
+                android:ems="10"
+                android:hint=""
+                android:inputType="text"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="92dp" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Appointment Time"
+                android:textColor="@color/Text"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/timePickerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp">
+
+                <EditText
+                    android:id="@+id/timeEditText"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Text"
+                    android:hint=""
+                    android:layout_marginStart="35dp"
+                    android:focusable="false"
+                    android:inputType="text"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <Button
+                    android:id="@+id/timePickerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pick Time" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Details of the appointment"
+                    android:textColor="@color/Text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="35dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/detailsEditText"
+                android:layout_width="@dimen/createAppointment_editT_width"
+                android:layout_height="80dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/Text"
+                android:ems="10"
+                android:hint=""
+                android:inputType="textMultiLine"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_buttons"
+                android:text="@string/createScreen_btnSave_text"
+                android:textColor="@color/colorPrimaryDark"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

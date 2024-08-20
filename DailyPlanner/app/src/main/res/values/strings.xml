@@ -1,0 +1,52 @@
+<resources>
+
+
+
+    <!--main app theme related settings-->
+    <string name="app_name">Timely</string>
+
+    <!--splash screen related strings-->
+
+
+    <!--Main Screen related Strings-->
+    <string name="ms_search_appointment">Search Appointment</string>
+    <string name="ms_move">Move</string>
+    <string name="ms_delete">Delete</string>
+    <string name="ms_view">View</string>
+    <string name="ms_create">Create</string>
+
+    <!--Delete popup related strings-->
+    <string name="d_popup_msg">Please select an option,</string>
+    <string name="d_popup_heading">Delete Appointment</string>
+    <string name="d_popup_options">1. Delete all appointments for that date \n
+    \n 2. Select an appointment to delete</string>
+
+    <!--update popup related strings-->
+    <string name="updatePopUp_heading">UPDATE REMINDER</string>
+    <string name="updatePopUp_subHeading">Please fill necessary fields to update appointment</string>
+    <string name="updatePopUp_updateTittle">Title of the appointment</string>
+    <string name="updatePopUp_updateTime">Time of the appointment</string>
+    <string name="updatePopUp_updateDetails">Details of the appointment</string>
+
+    <!--Move popup related strings-->
+    <string name="movePopup_heading">MOVE REMINDER</string>
+    <string name="movePopup_subHeading">Please select the date you wish to move the appointment</string>
+    <string name="btnmovePopup_text">MOVE</string>
+
+    <!--create appointment screen related strings-->
+    <string name="createAppointment_heading">CREATE REMINDER</string>
+    <string name="createScreen_thesaurusDescription">Type a word in the text box bellow and press the THESAURUS button to find out the synonyms related to that word</string>
+    <string name="createScreen_btnSave_text">SAVE</string>
+
+    <!--search popup related strings-->
+    <string name="searchPopUp_Tittle">Title of the appointment</string>
+    <string name="searchPopUp_Time">Time of the appointment</string>
+    <string name="searchPopUp_Details">Details of the appointment</string>
+
+    <!--Search appointment screen related strings-->
+    <string name="searchAppointment_heading">SEARCH REMINDER</string>
+    <string name="searchAppointment_subHeading">Please enter a keyword and press the SEARCH button to search relevant appointments</string>
+    <string name="searchAppointment_ETextHint">Enter a keyword</string>
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_splash_screen"
+    android:background="@drawable/background_gradient"
+    tools:context=".SplashScreen">
+
+    <!--Splash screen inner layout-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--image view which holds the logo of the splash screen-->
+
+        <!--Copyright Message-->
+
+
+        <ImageView
+            android:id="@+id/ss_imageView"
+            android:layout_width="@dimen/splashScreen_logoWidth"
+            android:layout_height="@dimen/splashScreen_logoHeight"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/logo_marginBottom"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/timely_logo"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/ss_imageView"
+            android:layout_marginStart="45dp"
+            android:src="@drawable/timely"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
